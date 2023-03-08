@@ -28,6 +28,9 @@ body {
   background-color: rgb(255, 250, 250);
   background-size: calc(600px);
   padding: 0 1%;
+  background-image: url(../Assets/esction1/bg.png);
+   background-size: calc(400px);
+
 }
 
 /*  ******* nav****** */
@@ -36,13 +39,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 8px 50px;
-
 }
 .logo > img {
   width: 110px;
   height: 100px;
 }
-
 
 .links > button {
   width: 151px;
@@ -53,9 +54,8 @@ nav {
   color: rgb(92, 158, 79);
   border: 1px solid rgb(92, 158, 79);
   transition: 0.5s;
-
 }
-.links > button:hover{
+.links > button:hover {
   background: rgb(92, 158, 79);
   color: white;
 }
@@ -91,10 +91,18 @@ select {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  background-image: url(../Assets//esction1//b-haj.jpg);
+  /* background-image: url(../Assets//esction1//b-haj.jpg); */
   background-size: cover;
 }
-
+.sec_1_left {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .sec_1_right {
   width: 100%;
   display: flex;
@@ -103,7 +111,6 @@ select {
   gap: 10px;
   padding: 4% 0;
 
-  /* flex-direction: column; */
 }
 
 .hodim {
@@ -152,6 +159,37 @@ select {
   justify-content: space-between;
   padding: 2% 3%;
 }
+.malumot {
+  width: 380px;
+  height: 307px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 4px;
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  box-shadow: 5px 5px 15px rgba(20, 19, 19, 0.378);
+
+}
+.malumot> button{
+  margin: 0 auto;
+  background: none;
+  width: 151px;
+  height: 38px;
+  background: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  background: rgb(92, 158, 79);
+}
+.malumot :nth-child(1) {
+  font-weight: bold;
+  padding-bottom: 5px;
+  
+}
+
 .f_cart {
   width: 380px;
   height: 307px;
@@ -163,13 +201,10 @@ select {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   border-radius: 10px;
-}
-.f_cart:hover {
-  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(20, 19, 19, 0.378);
 
-  box-shadow: 5px 5px 15px rgb(20, 19, 19);
-  border-radius: 10px;
 }
+
 .f_cart > img {
   width: 100%;
   height: 247px;
@@ -216,9 +251,13 @@ select {
   height: 100%;
 }
 .text {
+  width: 100%;
+  height: 150px;
   padding: 1%;
   text-align: center;
   font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
 /* ***********section4 ******** */

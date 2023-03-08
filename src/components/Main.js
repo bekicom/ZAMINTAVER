@@ -16,20 +16,18 @@ import hodim from "../Assets/esction1/malakali.png";
 import hodim_masulyat from "../Assets/esction1/hodimlar.png";
 import narx from "../Assets/esction1/qulay.png";
 // foto lavhalar
-import lavha1 from "../Assets/section4/1.jpg"
-import lavha2 from "../Assets/section4/2.jpg"
-import lavha3 from "../Assets/section4/3.jpg"
-import lavha4 from "../Assets/section4/4.jpg"
-import lavha5 from "../Assets/section4/8.jpg"
-import lavha6 from "../Assets/section4/6.jpg"
-import lavha7 from "../Assets/section4/7.jpg"
-import lavha8 from "../Assets/section4/8.jpg"
-import lavha9 from "../Assets/section4/9.jpg"
-import lavha10 from "../Assets/section4/10.jpg"
-
+import lavha1 from "../Assets/section4/1.jpg";
+import lavha2 from "../Assets/section4/2.jpg";
+import lavha3 from "../Assets/section4/3.jpg";
+import lavha4 from "../Assets/section4/4.jpg";
+// import lavha5 from "../Assets/section4/8.jpg"
+import lavha6 from "../Assets/section4/6.jpg";
+import lavha7 from "../Assets/section4/7.jpg";
+import lavha8 from "../Assets/section4/8.jpg";
+import lavha9 from "../Assets/section4/9.jpg";
+import lavha10 from "../Assets/section4/10.jpg";
 
 export function Main() {
-  
   return (
     <div className="wrapper">
       <nav>
@@ -39,7 +37,7 @@ export function Main() {
         <div className="links">
           <button>Biz haqimizda</button>
           <button>niz haqimizda</button>
-            <button>Bizbilan aloqa</button>
+          <button>Bizbilan aloqa</button>
         </div>
         <div className="langu">
           <select name="" id="">
@@ -54,7 +52,28 @@ export function Main() {
       <section className="section1">
         <p id="biz">BIZ HAQIMIZDA QISQA MALUMOT</p>
         <div className="section_center">
-          <p>bizning fermamiz 2015 yildan buyon xizmat korsatib kelmoqda</p>
+          <div className="sec_1_left">
+            <p>
+              1. “Zamin-Travel” 2016-yilda tashkil etilganidan buyon o‘z
+              mijozlariga ajoyib sayohat xizmatlarini ko‘rsatish, muammosiz va
+              yoqimli sayohat tajribasini ta’minlash majburiyatini olgan. O‘tgan
+              yillar davomida “Zamin” sayyohlik agentligi o‘zining sifatli
+              xizmatlari bilan obro‘ qozondi va bu sayyohlar uchun ishonchli va
+              samarali sayohat yechimlarini qidirayotganlar uchun ishonchli
+              tanlovga aylandi.
+            </p>
+            <p>
+              2. “Zamin-Travel” sayyohlik agentligi har oy 100 dan ortiq
+              ziyoratchilarning sayohatlarini osonlashtirib, ularga samarali va
+              ishonchli sayohat xizmatlarini taqdim etadi.{" "}
+            </p>
+            <p>
+              3. Bizning ziyoratchilarimiz Makka va Madina shaharlarida yuqori
+              darajadagi turar joylarga joylashtirilib, qulay va maroqli ziyorat
+              qilishlari uchun barcha qulayliklar bilan jihozlangan 4-5 yulduzli
+              mehmonxonalarda joylashtiriladilar  
+            </p>
+          </div>
 
           <div className="sec_1_right">
             <div className="hodim">
@@ -63,29 +82,31 @@ export function Main() {
             </div>
             <div className="hodim">
               <img src={hodim_masulyat} alt="" />
-              <p>Malakali va masulyatli 50 boshilar</p>
+              <p>Malakali va masulyatli yo`l boshlovchilar</p>
             </div>
             <div className="hodim">
               <img src={narx} alt="" />
-              <p>Ishonchli Hamyonbop qulay va arzon narxlar</p>
+              <p>Ishonchli va hamyonbop narxlar</p>
             </div>
           </div>
         </div>
       </section>
 
       <section id="section2">
-        <p>FOYDALI MALUMOTLAR VA TAVSIYALAR</p>
+        <p>FOYDALI MA`LUMOTLAR VA TAVSIYALAR</p>
         <div id="foydali">
           <div className="f_cart">
             <img src={haj1} alt="" />
-            <p>Haj qanday ibodat?</p>
+            <p>Haj safari</p>
+          </div>
+          <div className="malumot">
+            <p>Umra ziyoratini Haj safaridan qanday farqi bor ?</p>
+            <p>Haj va Umra ziyoratidagi asosiy farqlar quidagilardir:</p>
+            <p>1. Haj farz amal bo'lsa Umra sunnati muakkadadir</p>...
+            <button>batafsil</button>
           </div>
           <div className="f_cart">
             <img src={haj2} alt="" />
-            <p>Umra qanday ibodat?</p>
-          </div>
-          <div className="f_cart">
-            <img src={haj3} alt="" />
             <p>Umra ziyorati</p>
           </div>
         </div>
@@ -100,9 +121,8 @@ export function Main() {
             </div>
             <div className="text">
               <p>
-                {" "}
-                Madinaga yetib borgan umrachilarimiz bugun MADINAI-SHARIFNI
-                ziyorat qilishdi
+                Madinaga yetib borgan ziyoratchilarimiz bugun MADINAI-SHARIFga
+                tashrif buyurishdi
               </p>
             </div>
           </div>
@@ -112,8 +132,8 @@ export function Main() {
             </div>
             <div className="text">
               <p>
-                Gurhimiz Makka shaxrni va Kabatullohni ziyorat qilishoqda
-                hammamizga nasib qilsin ilohim
+                Guruhimiz Makka shaxrini va Kabatullohni ziyorat qilishoqda.
+                InshaAlloh hammamizga nasib qilsin
               </p>
             </div>
           </div>
@@ -122,7 +142,7 @@ export function Main() {
               <img src={img3} alt="" />
               <div className="text">
                 <p>
-                  Alxamdulillax Madinaga yetib borgan guruximiz ziyoratchilari
+                  Alhamdulillah Madinaga yetib borgan guruximiz ziyoratchilari
                   bugun Kuron bosmaxonasi, Uxud togi, Masjidul Kiblatayn, Kubo
                   masjidi, Saba masjidi, Madina Xurmozorlarini ziyorat kilishdi!
                 </p>
@@ -238,7 +258,7 @@ export function Main() {
               <i class="fa fa-instagram"></i>
             </a>
             <a href="#">
-              <i class="fa fa-telegram">T</i>
+              <i class="fa fa-instagram"></i>
             </a>
           </div>
         </div>
