@@ -20,7 +20,7 @@ import lavha1 from "../Assets/section4/1.jpg"
 import lavha2 from "../Assets/section4/2.jpg"
 import lavha3 from "../Assets/section4/3.jpg"
 import lavha4 from "../Assets/section4/4.jpg"
-import lavha5 from "../Assets/section4/5.jpg"
+import lavha5 from "../Assets/section4/8.jpg"
 import lavha6 from "../Assets/section4/6.jpg"
 import lavha7 from "../Assets/section4/7.jpg"
 import lavha8 from "../Assets/section4/8.jpg"
@@ -29,6 +29,7 @@ import lavha10 from "../Assets/section4/10.jpg"
 
 
 export function Main() {
+  
   return (
     <div className="wrapper">
       <nav>
@@ -38,7 +39,7 @@ export function Main() {
         <div className="links">
           <button>Biz haqimizda</button>
           <button>niz haqimizda</button>
-          <button>niz haqimizda</button>
+            <button>Bizbilan aloqa</button>
         </div>
         <div className="langu">
           <select name="" id="">

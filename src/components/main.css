@@ -25,13 +25,7 @@ body {
 .wrapper {
   width: 100%;
   height: auto;
-
   background-color: rgb(255, 250, 250);
-  /* background-image: url(../Assets/nav/Rectangle.png); */
-  /* background-image: url(../Assets//esction1/b-haj.jpg); */
-  /* background-image: url(../Assets/esction1/Layer\ 1.png); */
-
-  /* background-position:center; */
   background-size: calc(600px);
   padding: 0 1%;
 }
@@ -42,20 +36,30 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 8px 50px;
+
 }
 .logo > img {
   width: 110px;
   height: 100px;
 }
 
+
 .links > button {
   width: 151px;
-  height: 42px;
-  background: rgb(92, 158, 79);
+  height: 38px;
+  background: none;
   border-radius: 10px;
   margin: 0 45px;
+  color: rgb(92, 158, 79);
+  border: 1px solid rgb(92, 158, 79);
+  transition: 0.5s;
+
+}
+.links > button:hover{
+  background: rgb(92, 158, 79);
   color: white;
 }
+
 select {
   width: 60px;
   height: 45px;
