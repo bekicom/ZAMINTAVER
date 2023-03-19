@@ -249,10 +249,10 @@ export function Main() {
             <span> ZAMINTRAVEL</span>
           </h3>
 
-          <p class="footer-links">
+          {/* <p class="footer-links">
             <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contact</a>|
             <a href="#">Blog</a>
-          </p>
+          </p> */}
 
           <p class="footer-company-name">
             Copyright © 2021 <strong>SagarDeveloper</strong> All rights reserved
@@ -322,7 +322,7 @@ export function Main() {
             <span>{data[lan].tarmoq}</span>
           </p>
           <div class="footer-icons">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="fecebook" target="_blank" rel="noopener noreferrer">
               <i class="fa fa-facebook"></i>
             </a>
             <a
